@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&family=Sofia&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&family=Sofia&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sofia&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@300;400;700&family=Playball&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Sofia&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+body{
+    background-image: url(https://png.pngtree.com/background/20210716/original/pngtree-pink-dot-girl-cute-background-picture-image_1348540.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    font-weight: bold;
+    float: right;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px  30px;
+    border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+}
+nav ul li :hover{
+    color: rgb(203, 0, 75);
+
+}
+.barra{
+    
+    height: 3em;
+    width: 100%;
+
+}
+section{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(255,76,163,1) 0%, rgba(255,117,214,0.83) 34%, rgba(253,137,215,0.8) 40%, rgba(251,166,225,0.76) 48%, rgba(251,166,225,0.73) 54%, rgba(251,166,225,0.7) 60%, rgba(253,137,215,0.63) 74%, rgba(209,115,182,0.5) 100%),url(https://static.vecteezy.com/system/resources/previews/004/249/094/original/pretty-cute-pink-and-white-stripes-for-printing-wallpaper-interior-houses-girly-feminine-background-free-vector.jpg);
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0;
+    box-shadow: inset 2px -2px 28px 2px rgba(163,47,80,1);
+    background-attachment: fixed;
+}
+
+header{
+    font-family: "Sofia", cursive;
+    font-size: 140px;
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    text-align: left;
+    font-family: "Yatra One", system-ui;
+    padding-left: 70px;
+    width: 33.33%;
+    height: 298px;
+    padding-top: 100px;
+    margin: 1px;
+    float: left;
+    text-align: justify;
+    
+}
+.img{
+    width: 33.33%;
+    height: 298px;
+    padding-top: 80px;
+    margin: 1px;
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    padding-right: 100px;
+}
+.section{
+    width: 100%;
+    height: 400px;
+    
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+article{
+    width: 28%;
+    height: 307px;
+    
+    margin: 1px;
+    text-align: center;
+    float: left;
+    padding-left: 100px;
+    font-family: "Sofia", cursive;
+    text-align: left;
+    font-size: 50px;
+    color: #ff8383;
+    
+}
+aside{
+    width: 44%;
+    height: 248px;
+    margin: 1px;
+    text-align: justify;
+    padding-right: 200px;
+    color: #000000;
+    float: right;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.Parte{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    text-align: center;
+    color: #000000;
+}
+.cosa1{
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 12px 16px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    margin-left: 70px;
+    float: inline-start;
+    font-family: "Playball", cursive;
+    color: #ff83c3; 
+    font-size: 25px;   
+}
+a{
+    text-decoration: none;
+    font-family: "Playball", cursive;
+    color: #ff83c3;
+    font-size: 25px; 
+}
+a:hover{
+    color: rgb(203, 0, 75);
+}
+.cosa2{
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 154, 168);
+    box-shadow: 10px 12px 16px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    margin-left: 150px;
+    float: left;
+    font-family: "Playball", cursive;  
+    color: #fff; 
+    font-size: 25px;   
+}
+.cosa3{
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 12px 16px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    margin-right: 50px;
+    float: right;
+    font-family: "Playball", cursive;
+    color: #ff83c3;
+    font-size: 25px;
+}
+.patras{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 209, 224);
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0;
+    box-shadow: inset 2px -2px 28px 2px rgba(163,47,80,1);
+}
+.nuestra{
+    width: 28%;
+    height: 307px;
+    margin: 1px;
+    float: left;
+    font-family: "Kalam", cursive;
+    text-align: left;
+    font-size: 11px;
+    color: #ff8383;
+    text-align: justify;
+    margin-left: 50px;
+}
+.imagen{
+    width: 40%;
+    height: 248px;
+    margin: 1px;
+    text-align: justify;
+    padding-right: 90px;
+    
+    color: #000000;
+    float: right;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: -140px;
+    margin-right: 200px;
+}
+footer {
+    background-color: #a00060;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+}
